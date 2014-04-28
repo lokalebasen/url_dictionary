@@ -45,7 +45,7 @@ module UrlDictionary
       end
 
       def load_from_github
-        open('https://github.com/lokalebasen/url-dictionary/blob/master/lib/url_dictionary/data.yml').read
+        open('https://raw.githubusercontent.com/lokalebasen/url-dictionary/master/lib/url_dictionary/data.yml').read
       rescue Exception => e
         puts "Oops, couldn't read latest dictionary. Falling back to bundled dictionary file: #{e.message}"
         load_from_file
