@@ -3,8 +3,8 @@ dk:
     lease: leje
     sale: kob
   categories:
-    investment: investeringsejendomme
-    user: brugerejendomme
+    investment_property: investeringsejendomme
+    user_property: brugerejendomme
     lease: leje
   kinds:
     office: kontorlokaler
@@ -19,8 +19,8 @@ se:
     sale: kop
   categories:
     lease: hyra
-    investment: investeringsfastigheter
-    user: verksamhetsfastigheter
+    investment_property: investeringsfastigheter
+    user_property: verksamhetsfastigheter
   kinds:
     office: kontorslokaler
     store: butikslokaler

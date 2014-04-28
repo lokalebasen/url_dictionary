@@ -38,8 +38,8 @@ describe UrlDictionary do
         dictionary = UrlDictionary.load(site_key)
         dictionary.sub_sites.lease
         dictionary.sub_sites.sale
-        dictionary.categories.investment
-        dictionary.categories.user
+        dictionary.categories.investment_property
+        dictionary.categories.user_property
         dictionary.categories.lease
         dictionary.kinds.office
         dictionary.kinds.store
