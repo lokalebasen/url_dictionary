@@ -19,8 +19,8 @@ se:
     sale: kop
   categories:
     lease: hyra
-    investment_sale: investeringsfastigheter
-    user_sale: verksamhetsfastigheter
+    investment: investeringsfastigheter
+    user: verksamhetsfastigheter
   kinds:
     office: kontorslokaler
     store: butikslokaler
