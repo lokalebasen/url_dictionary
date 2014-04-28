@@ -10,6 +10,7 @@ dk:
     office: kontorlokaler
     store: butikslokaler
     warehouse: produktion-lager
+    housing: boligudlejning
     all: erhvervslokaler
   province_slug: landsdele
 se:
@@ -25,4 +26,5 @@ se:
     store: butikslokaler
     warehouse: industri-lager
     housing: hyresbostader
+    all: lokaler
   province_slug: lan
