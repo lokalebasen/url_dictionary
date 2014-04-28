@@ -1,0 +1,14 @@
+dk:
+  sub_sites:
+    lease: leje
+    sale: kob
+  categories:
+    investment: investeringsejendomme
+    user: brugerejendomme
+    lease: leje
+  kinds:
+    office: kontorlokaler
+    store: butikslokaler
+    warehouse: produktion-lager
+    all: erhvervslokaler
+  province_slug: landsdele

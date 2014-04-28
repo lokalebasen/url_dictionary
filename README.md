@@ -1,29 +1,34 @@
-# Url::Dictionary
+# UrlDictionary
 
-TODO: Write a gem description
+A library to resolve url segments for sites
 
-## Installation
+### How to use
 
-Add this line to your application's Gemfile:
+Get a Dictionary instance for the site you want to use
 
-    gem 'url-dictionary'
+    dk_dict = UrlDictionary.load('dk')
 
-And then execute:
+Check supported methods
 
-    $ bundle
+    dk_dict.methods
+    => [:sub_sites, :categories, :kinds, :province_slug, ... ]
 
-Or install it yourself as:
+Call some
 
-    $ gem install url-dictionary
+    dk_dict.province_slug
+    => "landsdele"
 
-## Usage
+    dk_dict.kinds.office
+    => "kontorlokaler"
 
-TODO: Write usage instructions here
+### Performance
 
-## Contributing
+UrlDictionary loads the latest dictionary data from GitHub upon first load request and caches the data in a class variable for subsequent requests. In case the request fails, UrlDictionary will use the local data source in lib/url_dictionary/data.yml
 
-1. Fork it ( https://github.com/[my-github-username]/url-dictionary/fork )
-2. Create your feature branch (`git checkout -b my-new-feature`)
-3. Commit your changes (`git commit -am 'Add some feature'`)
-4. Push to the branch (`git push origin my-new-feature`)
-5. Create a new Pull Request
+UrlDictionary can be configured to always use the local data (useful for speeding up specs). Just call the following configuration method before calling UrlDictionary.load
+
+    UrlDictionary::Config.use_local_dictionary!
+
+If you change your mind in the process (pun intended) and want to go back to the default, call this method:
+
+    UrlDictionary::Config.use_remote_dictionary!
