@@ -26,18 +26,28 @@ describe UrlDictionary do
 
   context 'reading keys' do
 
-    let(:dictionary) { UrlDictionary.load('dk') }
-
-    it 'supports kinds.office' do
-      dictionary.kinds.office.should eql 'kontorlokaler'
-    end
-
-    it 'supports categories.investment' do
-      dictionary.categories.investment.should eql 'investeringsejendomme'
-    end
+    let(:dictionary) {  }
 
     it 'raises NoMethodError for absent keys' do
+      dictionary = UrlDictionary.load('dk')
       expect{dictionary.categories.kittens}.to raise_error(NoMethodError)
+    end
+
+    ['dk', 'se'].each do |site_key|
+      it "supports all keys for #{site_key}" do
+        dictionary = UrlDictionary.load(site_key)
+        dictionary.sub_sites.lease
+        dictionary.sub_sites.sale
+        dictionary.categories.investment
+        dictionary.categories.user
+        dictionary.categories.lease
+        dictionary.kinds.office
+        dictionary.kinds.store
+        dictionary.kinds.warehouse
+        dictionary.kinds.housing
+        dictionary.kinds.all
+        dictionary.province_slug
+      end
     end
 
   end

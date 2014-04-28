@@ -10,5 +10,21 @@ dk:
     office: kontorlokaler
     store: butikslokaler
     warehouse: produktion-lager
+    housing: boligudlejning
     all: erhvervslokaler
   province_slug: landsdele
+se:
+  sub_sites:
+    lease: hyra
+    sale: kop
+  categories:
+    lease: hyra
+    investment: investeringsfastigheter
+    user: verksamhetsfastigheter
+  kinds:
+    office: kontorslokaler
+    store: butikslokaler
+    warehouse: industri-lager
+    housing: hyresbostader
+    all: lokaler
+  province_slug: lan
