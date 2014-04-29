@@ -47,6 +47,7 @@ describe UrlDictionary do
         dictionary.kinds.housing
         dictionary.kinds.all
         dictionary.province_slug
+        dictionary.search_agent
       end
     end
 
