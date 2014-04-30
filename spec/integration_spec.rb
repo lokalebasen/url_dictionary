@@ -26,28 +26,38 @@ describe UrlDictionary do
 
   context 'reading keys' do
 
-    let(:dictionary) {  }
+    let(:dictionary) { UrlDictionary.load('dk') }
 
-    it 'raises NoMethodError for absent keys' do
-      dictionary = UrlDictionary.load('dk')
-      expect{dictionary.categories.kittens}.to raise_error(NoMethodError)
+    it 'raises MissingKeyError for absent keys' do
+      expect{dictionary.t 'categories.kittens'}.to raise_error(UrlDictionary::MissingKeyError)
+    end
+
+    it 'raises BadValueError for keys pointing to a non-string value' do
+      expect{dictionary.t 'categories'}.to raise_error(UrlDictionary::BadValueError)
+    end
+
+    it 'responds to translate in addition to t' do
+      dictionary.translate('sub_sites.sale').should eql 'kob'
     end
 
     ['dk', 'se'].each do |site_key|
       it "supports all keys for #{site_key}" do
         dictionary = UrlDictionary.load(site_key)
-        dictionary.sub_sites.lease
-        dictionary.sub_sites.sale
-        dictionary.categories.investment_property
-        dictionary.categories.user_property
-        dictionary.categories.lease
-        dictionary.kinds.office
-        dictionary.kinds.store
-        dictionary.kinds.warehouse
-        dictionary.kinds.housing
-        dictionary.kinds.all
-        dictionary.province_slug
-        dictionary.search_agent
+        dictionary.t 'sub_sites.lease'
+        dictionary.t 'sub_sites.sale'
+        dictionary.t 'categories.investment_property'
+        dictionary.t 'categories.user_property'
+        dictionary.t 'categories.lease'
+        dictionary.t 'location.office'
+        dictionary.t 'location.store'
+        dictionary.t 'location.warehouse'
+        dictionary.t 'location.location'
+        dictionary.t 'property.office'
+        dictionary.t 'property.store'
+        dictionary.t 'property.warehouse'
+        dictionary.t 'property.housing'
+        dictionary.t 'province'
+        dictionary.t 'search_agent'
       end
     end
 

@@ -1,0 +1,40 @@
+dk:
+  sub_sites:
+    lease: leje
+    sale: kob
+  categories:
+    investment_property: investeringsejendomme
+    user_property: brugerejendomme
+    lease: leje
+  location:
+    location: erhvervslokaler
+    office: kontorlokaler
+    store: butikslokaler
+    warehouse: produktion-lager
+  property:
+    office: kontor
+    store: butik
+    warehouse: produktion-lager
+    housing: boligudlejning
+  province: landsdele
+  search_agent: soegeagent
+se:
+  sub_sites:
+    lease: hyra
+    sale: kop
+  categories:
+    lease: hyra
+    investment_property: investeringsfastigheter
+    user_property: verksamhetsfastigheter
+  location:
+    office: kontorslokaler
+    store: butikslokaler
+    warehouse: industri-lager
+    location: lokaler
+  property:
+    office: kontorslokaler
+    store: butikslokaler
+    warehouse: industri-lager
+    housing: hyresbostader
+  province: lan
+  search_agent: sokprofil
