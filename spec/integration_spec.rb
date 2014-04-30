@@ -26,36 +26,38 @@ describe UrlDictionary do
 
   context 'reading keys' do
 
-    let(:dictionary) {  }
+    let(:dictionary) { UrlDictionary.load('dk') }
 
     it 'raises MissingKeyError for absent keys' do
-      dictionary = UrlDictionary.load('dk')
-      expect{dictionary.get 'categories.kittens'}.to raise_error(UrlDictionary::MissingKeyError)
+      expect{dictionary.t 'categories.kittens'}.to raise_error(UrlDictionary::MissingKeyError)
     end
 
     it 'raises BadValueError for keys pointing to a non-string value' do
-      dictionary = UrlDictionary.load('dk')
-      expect{dictionary.get 'categories'}.to raise_error(UrlDictionary::BadValueError)
+      expect{dictionary.t 'categories'}.to raise_error(UrlDictionary::BadValueError)
+    end
+
+    it 'responds to translate in addition to t' do
+      dictionary.translate('sub_sites.sale').should eql 'kob'
     end
 
     ['dk', 'se'].each do |site_key|
       it "supports all keys for #{site_key}" do
         dictionary = UrlDictionary.load(site_key)
-        dictionary.get 'sub_sites.lease'
-        dictionary.get 'sub_sites.sale'
-        dictionary.get 'categories.investment_property'
-        dictionary.get 'categories.user_property'
-        dictionary.get 'categories.lease'
-        dictionary.get 'location.office'
-        dictionary.get 'location.store'
-        dictionary.get 'location.warehouse'
-        dictionary.get 'location.location'
-        dictionary.get 'property.office'
-        dictionary.get 'property.store'
-        dictionary.get 'property.warehouse'
-        dictionary.get 'property.housing'
-        dictionary.get 'province'
-        dictionary.get 'search_agent'
+        dictionary.t 'sub_sites.lease'
+        dictionary.t 'sub_sites.sale'
+        dictionary.t 'categories.investment_property'
+        dictionary.t 'categories.user_property'
+        dictionary.t 'categories.lease'
+        dictionary.t 'location.office'
+        dictionary.t 'location.store'
+        dictionary.t 'location.warehouse'
+        dictionary.t 'location.location'
+        dictionary.t 'property.office'
+        dictionary.t 'property.store'
+        dictionary.t 'property.warehouse'
+        dictionary.t 'property.housing'
+        dictionary.t 'province'
+        dictionary.t 'search_agent'
       end
     end
 

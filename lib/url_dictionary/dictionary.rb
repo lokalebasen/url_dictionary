@@ -6,13 +6,15 @@ module UrlDictionary
       @site_key = site_key
     end
 
-    def get(full_key)
-      private_get(@hash, full_key, full_key.split('.'))
+    def translate(full_key)
+      search(@hash, full_key, full_key.split('.'))
     end
+
+    alias_method :t, :translate
 
     private
 
-    def private_get(hash, full_key, remaining_segments)
+    def search(hash, full_key, remaining_segments)
       current_level = remaining_segments.shift
       current_value = hash[current_level]
 
@@ -21,7 +23,7 @@ module UrlDictionary
       end
 
       if remaining_segments.any?
-        private_get(current_value, full_key, remaining_segments)
+        search(current_value, full_key, remaining_segments)
       else
         if current_value.is_a? String
           current_value
