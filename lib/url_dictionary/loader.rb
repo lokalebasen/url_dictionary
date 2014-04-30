@@ -21,8 +21,9 @@ module UrlDictionary
       private
 
       def load_dictionary(site_key)
-        if site_data = data[site_key.to_s.downcase]
-          UrlDictionary::Dictionary.new(site_data)
+        site_key = site_key.to_s.downcase
+        if site_data = data[site_key]
+          UrlDictionary::Dictionary.new(site_data, site_key)
         else
           fail ArgumentError, "No dictionary for site_key #{site_key}"
         end
@@ -45,7 +46,7 @@ module UrlDictionary
       end
 
       def load_from_github
-        yaml_string = open('https://raw.githubusercontent.com/lokalebasen/url-dictionary/master/lib/url_dictionary/data.yml').read
+        yaml_string = open('https://raw.githubusercontent.com/lokalebasen/url-dictionary/master/lib/url_dictionary/data_v2.yml').read
         YAML.load(yaml_string) # Triggers exception if response is bad
         yaml_string
       rescue Exception => e
@@ -58,7 +59,7 @@ module UrlDictionary
       end
 
       def path_to_file
-        File.join(UrlDictionary.root_path, 'data.yml')
+        File.join(UrlDictionary.root_path, 'data_v2.yml')
       end
 
     end

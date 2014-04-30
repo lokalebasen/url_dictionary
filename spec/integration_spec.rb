@@ -28,26 +28,34 @@ describe UrlDictionary do
 
     let(:dictionary) {  }
 
-    it 'raises NoMethodError for absent keys' do
+    it 'raises MissingKeyError for absent keys' do
       dictionary = UrlDictionary.load('dk')
-      expect{dictionary.categories.kittens}.to raise_error(NoMethodError)
+      expect{dictionary.get 'categories.kittens'}.to raise_error(UrlDictionary::MissingKeyError)
+    end
+
+    it 'raises BadValueError for keys pointing to a non-string value' do
+      dictionary = UrlDictionary.load('dk')
+      expect{dictionary.get 'categories'}.to raise_error(UrlDictionary::BadValueError)
     end
 
     ['dk', 'se'].each do |site_key|
       it "supports all keys for #{site_key}" do
         dictionary = UrlDictionary.load(site_key)
-        dictionary.sub_sites.lease
-        dictionary.sub_sites.sale
-        dictionary.categories.investment_property
-        dictionary.categories.user_property
-        dictionary.categories.lease
-        dictionary.kinds.office
-        dictionary.kinds.store
-        dictionary.kinds.warehouse
-        dictionary.kinds.housing
-        dictionary.kinds.all
-        dictionary.province_slug
-        dictionary.search_agent
+        dictionary.get 'sub_sites.lease'
+        dictionary.get 'sub_sites.sale'
+        dictionary.get 'categories.investment_property'
+        dictionary.get 'categories.user_property'
+        dictionary.get 'categories.lease'
+        dictionary.get 'location.office'
+        dictionary.get 'location.store'
+        dictionary.get 'location.warehouse'
+        dictionary.get 'location.location'
+        dictionary.get 'property.office'
+        dictionary.get 'property.store'
+        dictionary.get 'property.warehouse'
+        dictionary.get 'property.housing'
+        dictionary.get 'province'
+        dictionary.get 'search_agent'
       end
     end
 

@@ -8,17 +8,12 @@ Get a Dictionary instance for the site you want to use
 
     dk_dict = UrlDictionary.load('dk')
 
-Check supported methods
+Read some keys
 
-    dk_dict.methods
-    => [:sub_sites, :categories, :kinds, :province_slug, ... ]
-
-Call some
-
-    dk_dict.province_slug
+    dk_dict.get 'province'
     => "landsdele"
 
-    dk_dict.kinds.office
+    dk_dict.get 'location.office'
     => "kontorlokaler"
 
 ### Performance
