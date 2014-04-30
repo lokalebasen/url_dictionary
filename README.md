@@ -10,11 +10,16 @@ Get a Dictionary instance for the site you want to use
 
 Read some keys
 
-    dk_dict.get 'province'
+    dk_dict.translate 'province'
     => "landsdele"
 
-    dk_dict.get 'location.office'
+    dk_dict.translate 'location.office'
     => "kontorlokaler"
+
+the translate method is also aliased as t.
+
+    dk_dict.t 'location.store'
+    => "butikslokaler"
 
 ### Performance
 
