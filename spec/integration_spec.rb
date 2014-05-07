@@ -56,6 +56,7 @@ describe UrlDictionary do
         dictionary.t 'property.store'
         dictionary.t 'property.warehouse'
         dictionary.t 'property.housing'
+        dictionary.t 'providers'
         dictionary.t 'province'
         dictionary.t 'search_agent'
       end
