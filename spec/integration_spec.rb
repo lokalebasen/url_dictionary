@@ -59,6 +59,7 @@ describe UrlDictionary do
         dictionary.t 'providers'
         dictionary.t 'province'
         dictionary.t 'search_agent'
+        dictionary.t 'about_us'
       end
     end
 
