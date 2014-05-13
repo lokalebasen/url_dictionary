@@ -1,44 +1,73 @@
 dk:
-  sub_sites:
-    lease: leje
-    sale: kob
+  about_us: om-os
+  all: alle
   categories:
     investment_property: investeringsejendomme
     user_property: brugerejendomme
     lease: leje
+  energy_rating: energimaerke
+  error: fejl
+  find_business_locations: find-erhvervslejemaal
+  floor_plans: plantegninger
+  images: billeder
   location:
     location: erhvervslokaler
     office: kontorlokaler
     store: butikslokaler
     warehouse: produktion-lager
+  newest: nyeste
+  news: nyheder
+  popular: populaere
   property:
     office: kontor
     store: butik
     warehouse: produktion-lager
     housing: boligudlejning
+  prospect: prospekt
   province: landsdele
+  receipt: kvittering
+  rent_out_business_locations: udlej-erhvervslejemaal
   search_agent: soegeagent
   providers: udbydere
-  about_us: om-os
-se:
+  services: ydelser
   sub_sites:
-    lease: hyra
-    sale: kop
+    lease: leje
+    sale: kob
+  video_presentation: praesentations-video
+
+se:
+  about_us: om-oss
+  all: alla
   categories:
     lease: hyra
     investment_property: investeringsfastigheter
     user_property: verksamhetsfastigheter
+  energy_rating: energimarkning
+  error: fel
+  find_business_locations: hitta-foretagslokaler
+  floor_plans: planritningar
+  images: bilder
   location:
     office: kontorslokaler
     store: butikslokaler
     warehouse: industri-lager
     location: lokaler
+  newest: nyaste
+  news: nyheter
+  popular: populara
   property:
     office: kontorslokaler
     store: butikslokaler
     warehouse: industri-lager
     housing: hyresbostader
+  prospect: prospekt
   province: lan
+  receipt: kvittering
+  rent_out_business_locations: hyrut-foretagslokaler
   search_agent: sokprofil
   providers: hyresvardar
-  about_us: om-oss
+  services: tjanster
+  sub_sites:
+    lease: hyra
+    sale: kop
+  video_presentation: presentations-video
