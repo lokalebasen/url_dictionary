@@ -59,7 +59,20 @@ describe UrlDictionary do
         dictionary.t 'providers'
         dictionary.t 'province'
         dictionary.t 'search_agent'
-        dictionary.t 'about_us'
+        dictionary.t 'all'
+        dictionary.t 'energy_rating'
+        dictionary.t 'error'
+        dictionary.t 'find_business_locations'
+        dictionary.t 'floor_plans'
+        dictionary.t 'images'
+        dictionary.t 'newest'
+        dictionary.t 'news'
+        dictionary.t 'popular'
+        dictionary.t 'prospect'
+        dictionary.t 'receipt'
+        dictionary.t 'rent_out_business_locations'
+        dictionary.t 'services'
+        dictionary.t 'video_presentation'
       end
     end
 
