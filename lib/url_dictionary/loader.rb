@@ -46,12 +46,11 @@ module UrlDictionary
       end
 
       def load_from_github
-        yaml_string = open('https://raw.githubusercontent.com/lokalebasen/url-dictionary/master/lib/url_dictionary/data_v2.yml').read
+        yaml_string = open(remote_dictionary_url).read
         YAML.load(yaml_string) # Triggers exception if response is bad
         yaml_string
       rescue Exception => e
-        puts "Oops, couldn't read latest dictionary. Falling back to bundled dictionary file: #{e.message}"
-        load_from_file
+        raise RuntimeError, "UrlDictionary couldn't read dictionary from #{remote_dictionary_url} : #{e.message}"
       end
 
       def load_from_file
@@ -60,6 +59,10 @@ module UrlDictionary
 
       def path_to_file
         File.join(UrlDictionary.root_path, 'data_v2.yml')
+      end
+
+      def remote_dictionary_url
+        'https://raw.githubusercontent.com/lokalebasen/url-dictionary/master/lib/url_dictionary/data_v2.yml'
       end
 
     end
