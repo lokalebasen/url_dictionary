@@ -62,7 +62,7 @@ module UrlDictionary
       end
 
       def remote_dictionary_url
-        'https://raw.githubusercontent.com/lokalebasen/url-dictionary/master/lib/url_dictionary/data_v2.yml'
+        'https://raw.githubusercontent.com/lokalebasen/url_dictionary/master/lib/url_dictionary/data_v2.yml'
       end
 
     end
