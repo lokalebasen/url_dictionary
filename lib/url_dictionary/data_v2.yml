@@ -5,6 +5,7 @@ dk:
     investment_property: investeringsejendomme
     user_property: brugerejendomme
     lease: leje
+  copyright: ophavsrettigheder
   energy_rating: energimaerke
   error: fejl
   find_business_locations: find-erhvervslejemaal
@@ -42,6 +43,7 @@ se:
     lease: hyra
     investment_property: investeringsfastigheter
     user_property: verksamhetsfastigheter
+  copyright: upphovsrattigheter
   energy_rating: energimarkning
   error: fel
   find_business_locations: hitta-foretagslokaler
