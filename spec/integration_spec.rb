@@ -11,15 +11,15 @@ describe UrlDictionary do
   context 'loading a dictionary' do
 
     it 'should load a dictionary instance for Denmark' do
-      UrlDictionary.load('dk').should be_an_instance_of UrlDictionary::Dictionary
+      expect(UrlDictionary.load('dk')).to be_an_instance_of UrlDictionary::Dictionary
     end
 
     it 'should be indifferent to case' do
-      UrlDictionary.load('Dk').should be_an_instance_of UrlDictionary::Dictionary
+      expect(UrlDictionary.load('Dk')).to be_an_instance_of UrlDictionary::Dictionary
     end
 
     it 'should suppport symbols too' do
-      UrlDictionary.load(:dk).should be_an_instance_of UrlDictionary::Dictionary
+      expect(UrlDictionary.load(:dk)).to be_an_instance_of UrlDictionary::Dictionary
     end
 
   end
@@ -37,7 +37,7 @@ describe UrlDictionary do
     end
 
     it 'responds to translate in addition to t' do
-      dictionary.translate('sub_sites.sale').should eql 'kob'
+      expect(dictionary.translate('sub_sites.sale')).to eql 'kob'
     end
 
     ['dk', 'se'].each do |site_key|
@@ -83,7 +83,7 @@ describe UrlDictionary do
 
     it 'works with fallback to local dictionary' do
       UrlDictionary::Config.use_remote_dictionary!
-      UrlDictionary.load('dk').should be_an_instance_of UrlDictionary::Dictionary
+      expect(UrlDictionary.load('dk')).to be_an_instance_of UrlDictionary::Dictionary
     end
 
   end
