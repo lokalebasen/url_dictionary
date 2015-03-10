@@ -36,6 +36,7 @@ dk:
     sale: kob
   video_presentation: praesentations-video
   custom_list: liste
+  rented_out: udlejet
 
 se:
   about_us: om-oss
@@ -75,3 +76,4 @@ se:
     sale: kop
   video_presentation: presentations-video
   custom_list: lista
+  rented_out: leasade
