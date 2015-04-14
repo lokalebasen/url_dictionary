@@ -18,10 +18,11 @@ describe UrlDictionary do
       expect(UrlDictionary.load('Dk')).to be_an_instance_of UrlDictionary::Dictionary
     end
 
-    it 'should suppport symbols too' do
-      expect(UrlDictionary.load(:dk)).to be_an_instance_of UrlDictionary::Dictionary
+    %i(dk se no).each do |symbol|
+      it "should suppport the symbol :#{symbol} too" do
+        expect(UrlDictionary.load(symbol)).to be_an_instance_of UrlDictionary::Dictionary
+      end
     end
-
   end
 
   context 'reading keys' do
@@ -40,7 +41,7 @@ describe UrlDictionary do
       expect(dictionary.translate('sub_sites.sale')).to eql 'kob'
     end
 
-    ['dk', 'se'].each do |site_key|
+    ['dk', 'se', 'no'].each do |site_key|
       it "supports all keys for #{site_key}" do
         dictionary = UrlDictionary.load(site_key)
         dictionary.t 'about_us'
