@@ -77,3 +77,43 @@ se:
   video_presentation: presentations-video
   custom_list: lista
   rented_out: leasade
+
+no:
+  about_us: om-oss
+  all: alle
+  categories:
+    investment_property: investeringseiendommer
+    user_property: Brukseiendommer
+    lease: leie
+  copyright: opphavsrettigheter
+  energy_rating: energimerke
+  error: feil
+  find_business_locations: finn-naeringslokaler
+  floor_plans: plantegninger
+  images: bilder
+  location:
+    location: naeringslokaler
+    office: kontorlokaler
+    store: butikklokaler
+    warehouse: produksjon-lager
+  newest: nyeste
+  news: nyheter
+  popular: populaer
+  property:
+    office: kontor
+    store: butikk
+    warehouse: produksjonn-lager
+    housing: boligutleie
+  prospect: prospekt
+  province: landsdel
+  receipt: kvittering
+  rent_out_business_locations: lei-ut-naeringslokaler
+  search_agent: soekeagent
+  providers: udleier
+  services: ytelser
+  sub_sites:
+    lease: leie
+    sale: kjoep
+  video_presentation: presentasjons-video
+  custom_list: liste
+  rented_out: udleid
