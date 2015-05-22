@@ -83,7 +83,7 @@ se:
   all: alle
   categories:
     investment_property: investeringseiendommer
-    user_property: Brukseiendommer
+    user_property: brukseiendommer
     lease: leie
   copyright: opphavsrettigheter
   energy_rating: energimerke
