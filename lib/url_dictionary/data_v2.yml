@@ -78,12 +78,52 @@ se:
   custom_list: lista
   rented_out: leasade
 
+pl:
+  about_us: o-nas
+  all: wszystkie
+  categories:
+    investment_property: nieruchomosci-inwestycyjne
+    user_property: nieruchomosci-uzytkowe
+    lease: najem
+  copyright: prawa-autorskie
+  energy_rating: etykieta-energetyczna
+  error: blad
+  find_business_locations: znajdz-lokal-do-wynajecia
+  floor_plans: plany-lokalu
+  images: zdjecia
+  location:
+    location: lokale-uzytkowe
+    office: lokale-biurowe
+    store: lokale-sklepowe
+    warehouse: produkcja-magazyn
+  newest: najnowsze
+  news: nowosci
+  popular: popularne
+  property:
+    office: lokale-biurowe
+    store: lokale-biurowe
+    warehouse: produkcja-magazyn
+    housing: wynajem-mieszkan
+  prospect: prospekt
+  province: region
+  receipt: potwierdzenie
+  rent_out_business_locations: wynajmij-lokal-uzytkowy
+  search_agent: agent-wyszukiwania
+  providers: wynajmujacy
+  services: uslugi
+  sub_sites:
+    lease: najem
+    sale: sprzedaz
+  video_presentation: prezentacja-wideo
+  custom_list: lista
+  rented_out: wynajete
+
 'no':
   about_us: om-oss
   all: alle
   categories:
     investment_property: investeringseiendommer
-    user_property: Brukseiendommer
+    user_property: brukseiendommer
     lease: leie
   copyright: opphavsrettigheter
   energy_rating: energimerke
