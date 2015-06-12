@@ -12,6 +12,7 @@ dk:
   floor_plans: plantegninger
   images: billeder
   location:
+    business_center: kontorhoteller
     location: erhvervslokaler
     office: kontorlokaler
     store: butikslokaler
@@ -52,6 +53,7 @@ se:
   floor_plans: planritningar
   images: bilder
   location:
+    business_center: kontorshotell
     office: kontorslokaler
     store: butikslokaler
     warehouse: industri-lager
@@ -92,6 +94,7 @@ pl:
   floor_plans: plany-lokalu
   images: zdjecia
   location:
+    business_center: hotel-biurowy
     location: lokale-uzytkowe
     office: lokale-biurowe
     store: lokale-sklepowe
@@ -132,6 +135,7 @@ pl:
   floor_plans: plantegninger
   images: bilder
   location:
+    business_center: kontorhoteller
     location: naeringslokaler
     office: kontorlokaler
     store: butikklokaler
