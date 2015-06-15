@@ -94,7 +94,7 @@ pl:
   floor_plans: plany-lokalu
   images: zdjecia
   location:
-    business_center: hotel-biurowy
+    business_center: biura-serwisowane
     location: lokale-uzytkowe
     office: lokale-biurowe
     store: lokale-sklepowe
