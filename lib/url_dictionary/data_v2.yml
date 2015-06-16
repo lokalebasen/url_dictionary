@@ -161,3 +161,44 @@ pl:
   video_presentation: presentasjons-video
   custom_list: liste
   rented_out: udleid
+
+de:
+  about_us: ueber-uns
+  all: alle
+  categories:
+    investment_property: anlageimmobilie
+    user_property: wohnimmobilie
+    lease: miete
+  copyright: urheberrecht
+  energy_rating: energieausweis
+  error: fehler
+  find_business_locations: gewerbeimmobilien-suchen
+  floor_plans: grundrisse
+  images: bilder
+  location:
+    business_center: business-center
+    location: gewerberaume
+    office: buro
+    store: einzelhandel
+    warehouse: lagerhallen-produktion
+  newest: neueste
+  news: neuigkeiten
+  popular: beliebte
+  property:
+    office: buro
+    store: einzelhandel
+    warehouse: produktion-lager
+    housing: mietwohnung
+  prospect: prospekt
+  province: landesteile
+  receipt: quittung
+  rent_out_business_locations: gewerbeimmobilien
+  search_agent: suchanzeige
+  providers: anbieter
+  services: dienstleistungen
+  sub_sites:
+    lease: mieten
+    sale: kaufen
+  video_presentation: videoprasentation
+  custom_list: benutzerdefinierte-liste
+  rented_out: vermietet
