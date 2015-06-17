@@ -41,7 +41,7 @@ describe UrlDictionary do
       expect(dictionary.translate('sub_sites.sale')).to eql 'kob'
     end
 
-    ['dk', 'se', 'no'].each do |site_key|
+    ['dk', 'se', 'no', 'de', 'pl'].each do |site_key|
       it "supports all keys for #{site_key}" do
         dictionary = UrlDictionary.load(site_key)
         dictionary.t 'about_us'
