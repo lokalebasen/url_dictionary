@@ -162,7 +162,7 @@ pl:
   custom_list: liste
   rented_out: udleid
 
-de:
+de: &de
   about_us: ueber-uns
   all: alle
   categories:
@@ -202,3 +202,9 @@ de:
   video_presentation: videoprasentation
   custom_list: benutzerdefinierte-liste
   rented_out: vermietet
+
+at:
+  <<: *de
+
+ch:
+  <<: *de
