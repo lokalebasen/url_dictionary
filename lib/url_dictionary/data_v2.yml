@@ -208,3 +208,44 @@ at:
 
 ch:
   <<: *de
+
+fi:
+  about_us: meistae
+  all: kaikki
+  categories:
+    investment_property: investointiomaisuus
+    user_property: kaeyttoeomaisuus
+    lease: vuokraus
+  copyright: tekijaenoikeudet
+  energy_rating: energialuokka
+  error: virhe
+  find_business_locations: etsi-liikepaikat
+  floor_plans: pohjapiirrokset
+  images: kuvat
+  location:
+    business_center: liikekeskus
+    location: huoneistot
+    office: toimistohuoneistot
+    store: myymaelaehuoneistot
+    warehouse: varastot
+  newest: uusin
+  news: uutuudet
+  popular: suosittu
+  property:
+    office: toimisto
+    store: myymaelae
+    warehouse: varasto
+    housing: asuinhuoneisto
+  prospect: mahdollisuus
+  province: maaseutu
+  receipt: kuittaus
+  rent_out_business_locations: vuokrahuoneistot
+  search_agent: hakukone
+  providers: vuokraajat
+  services: palvelut
+  sub_sites:
+    lease: vuokraus
+    sale: myynti
+  video_presentation: esittelyvideo
+  custom_list: luettelo
+  rented_out: vuokrattu
