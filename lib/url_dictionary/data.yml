@@ -5,6 +5,7 @@ dk:
   categories:
     investment_property: investeringsejendomme
     user_property: brugerejendomme
+    lot: grunde
     lease: leje
   kinds:
     office: kontorlokaler
@@ -12,6 +13,8 @@ dk:
     warehouse: produktion-lager
     housing: boligudlejning
     all: erhvervslokaler
+    commercial: erhvervsgrunde
+    residential: boliggrunde
   province_slug: landsdele
   search_agent: soegeagent
 se:
