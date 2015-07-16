@@ -4,6 +4,7 @@ dk:
   categories:
     investment_property: investeringsejendomme
     user_property: brugerejendomme
+    lot: grunde
     lease: leje
   copyright: ophavsrettigheder
   energy_rating: energimaerke
@@ -25,6 +26,8 @@ dk:
     store: butik
     warehouse: produktion-lager
     housing: boligudlejning
+    commercial_lot: erhvervsgrunde
+    residential_lot: boliggrunde
   prospect: prospekt
   province: landsdele
   receipt: kvittering
@@ -46,6 +49,7 @@ se:
     lease: hyra
     investment_property: investeringsfastigheter
     user_property: verksamhetsfastigheter
+    lot: lot
   copyright: upphovsrattigheter
   energy_rating: energimarkning
   error: fel
@@ -66,6 +70,8 @@ se:
     store: butikslokaler
     warehouse: industri-lager
     housing: hyresbostader
+    commercial_lot: commercial-lot
+    residential_lot: residential-lot
   prospect: prospekt
   province: lan
   receipt: kvittering
@@ -86,6 +92,7 @@ pl:
   categories:
     investment_property: nieruchomosci-inwestycyjne
     user_property: nieruchomosci-uzytkowe
+    lot: lot
     lease: najem
   copyright: prawa-autorskie
   energy_rating: etykieta-energetyczna
@@ -107,6 +114,8 @@ pl:
     store: lokale-biurowe
     warehouse: produkcja-magazyn
     housing: wynajem-mieszkan
+    commercial_lot: commercial-lot
+    residential_lot: residential-lot
   prospect: prospekt
   province: region
   receipt: potwierdzenie
@@ -127,6 +136,7 @@ pl:
   categories:
     investment_property: investeringseiendommer
     user_property: brukseiendommer
+    lot: lot
     lease: leie
   copyright: opphavsrettigheter
   energy_rating: energimerke
@@ -148,6 +158,8 @@ pl:
     store: butikk
     warehouse: produksjonn-lager
     housing: boligutleie
+    commercial_lot: commercial-lot
+    residential_lot: residential-lot
   prospect: prospekt
   province: landsdel
   receipt: kvittering
@@ -168,6 +180,7 @@ de: &de
   categories:
     investment_property: anlageimmobilie
     user_property: wohnimmobilie
+    lot: lot
     lease: miete
   copyright: urheberrecht
   energy_rating: energieausweis
@@ -189,6 +202,8 @@ de: &de
     store: einzelhandel
     warehouse: produktion-lager
     housing: mietwohnung
+    commercial_lot: commercial-lot
+    residential_lot: residential-lot
   prospect: prospekt
   province: landesteile
   receipt: quittung
@@ -215,6 +230,7 @@ fi:
   categories:
     investment_property: investointiomaisuus
     user_property: kaeyttoeomaisuus
+    lot: lot
     lease: vuokraus
   copyright: tekijaenoikeudet
   energy_rating: energialuokka
@@ -236,6 +252,8 @@ fi:
     store: myymaelae
     warehouse: varasto
     housing: asuinhuoneisto
+    commercial_lot: commercial-lot
+    residential_lot: residential-lot
   prospect: mahdollisuus
   province: maaseutu
   receipt: kuittaus
