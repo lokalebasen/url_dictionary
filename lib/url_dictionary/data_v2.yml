@@ -4,7 +4,7 @@ dk:
   categories:
     investment_property: investeringsejendomme
     user_property: brugerejendomme
-    lot: grunde
+    lot_property: grunde
     lease: leje
   copyright: ophavsrettigheder
   energy_rating: energimaerke
@@ -49,7 +49,7 @@ se:
     lease: hyra
     investment_property: investeringsfastigheter
     user_property: verksamhetsfastigheter
-    lot: lot
+    lot_property: lot
   copyright: upphovsrattigheter
   energy_rating: energimarkning
   error: fel
@@ -92,7 +92,7 @@ pl:
   categories:
     investment_property: nieruchomosci-inwestycyjne
     user_property: nieruchomosci-uzytkowe
-    lot: lot
+    lot_property: lot
     lease: najem
   copyright: prawa-autorskie
   energy_rating: etykieta-energetyczna
@@ -136,7 +136,7 @@ pl:
   categories:
     investment_property: investeringseiendommer
     user_property: brukseiendommer
-    lot: lot
+    lot_property: lot
     lease: leie
   copyright: opphavsrettigheter
   energy_rating: energimerke
@@ -180,7 +180,7 @@ de: &de
   categories:
     investment_property: anlageimmobilie
     user_property: wohnimmobilie
-    lot: lot
+    lot_property: lot
     lease: miete
   copyright: urheberrecht
   energy_rating: energieausweis
@@ -230,7 +230,7 @@ fi:
   categories:
     investment_property: investointiomaisuus
     user_property: kaeyttoeomaisuus
-    lot: lot
+    lot_property: lot
     lease: vuokraus
   copyright: tekijaenoikeudet
   energy_rating: energialuokka
