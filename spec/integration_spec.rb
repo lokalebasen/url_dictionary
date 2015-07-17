@@ -48,6 +48,7 @@ describe UrlDictionary do
         dictionary.t 'all'
         dictionary.t 'categories.investment_property'
         dictionary.t 'categories.user_property'
+        dictionary.t 'categories.lot_property'
         dictionary.t 'categories.lease'
         dictionary.t 'energy_rating'
         dictionary.t 'error'
