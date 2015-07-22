@@ -32,6 +32,7 @@ dk:
   province: landsdele
   receipt: kvittering
   rent_out_business_locations: udlej-erhvervslejemaal
+  sell_business_locations: bliv-saelger
   search_agent: soegeagent
   providers: udbydere
   services: ydelser
@@ -76,6 +77,7 @@ se:
   province: lan
   receipt: kvittering
   rent_out_business_locations: hyrut-foretagslokaler
+  sell_business_locations: become-seller
   search_agent: sokprofil
   providers: hyresvardar
   services: tjanster
@@ -120,6 +122,7 @@ pl:
   province: region
   receipt: potwierdzenie
   rent_out_business_locations: wynajmij-lokal-uzytkowy
+  sell_business_locations: become-seller
   search_agent: agent-wyszukiwania
   providers: wynajmujacy
   services: uslugi
@@ -164,6 +167,7 @@ pl:
   province: landsdel
   receipt: kvittering
   rent_out_business_locations: lei-ut-naeringslokaler
+  sell_business_locations: become-seller
   search_agent: soekeagent
   providers: udleier
   services: ytelser
@@ -208,6 +212,7 @@ de: &de
   province: landesteile
   receipt: quittung
   rent_out_business_locations: gewerbeimmobilien
+  sell_business_locations: become-seller
   search_agent: suchanzeige
   providers: anbieter
   services: dienstleistungen
@@ -258,6 +263,7 @@ fi:
   province: maaseutu
   receipt: kuittaus
   rent_out_business_locations: vuokrahuoneistot
+  sell_business_locations: become-seller
   search_agent: hakukone
   providers: vuokraajat
   services: palvelut

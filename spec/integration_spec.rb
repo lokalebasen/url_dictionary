@@ -71,6 +71,7 @@ describe UrlDictionary do
         dictionary.t 'province'
         dictionary.t 'receipt'
         dictionary.t 'rent_out_business_locations'
+        dictionary.t 'sell_business_locations'
         dictionary.t 'search_agent'
         dictionary.t 'services'
         dictionary.t 'sub_sites.lease'
