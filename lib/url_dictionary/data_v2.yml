@@ -230,7 +230,7 @@ ch:
   <<: *de
 
 fi:
-  about_us: meistae
+  about_us: yritys
   all: kaikki
   categories:
     investment_property: investointiomaisuus
