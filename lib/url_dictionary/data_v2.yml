@@ -273,3 +273,48 @@ fi:
   video_presentation: esittelyvideo
   custom_list: luettelo
   rented_out: vuokrattu
+
+es:
+  about_us: quienes-somos
+  all: todos
+  categories:
+    investment_property: propiedad-de-inversion
+    user_property: las-propriedades-de-usuario
+    lot_property: terreno
+    lease: arrendamiento
+  copyright: derechos-de-autor
+  energy_rating: etiqueta-energetica
+  error: error
+  find_business_locations: encontrar-alquileres-comerciales
+  floor_plans: plano-de-planta
+  images: imagenes
+  location:
+    business_center: centros-de-negocios
+    location: locales-comerciales
+    office: oficinas
+    store: tiendas
+    warehouse: almacen
+  newest: mas-reciente
+  news: noticias
+  popular: popular
+  property:
+    office: oficina
+    store: tienda
+    warehouse: almacen
+    housing: alquiler-de-viviendas
+    commercial_lot: terreno-comercial
+    residential_lot: parcela-vivienda
+  prospect: prospecto
+  province: provincia
+  receipt: recibo
+  rent_out_business_locations: alquiler-de-locales-comerciales
+  sell_business_locations: se-vendedor
+  search_agent: agente-de-busqueda
+  providers: proveedores
+  services: servicios
+  sub_sites:
+    lease: alquilar
+    sale: comprar
+  video_presentation: video-de-presentacion
+  custom_list: lista
+  rented_out: alquilado
