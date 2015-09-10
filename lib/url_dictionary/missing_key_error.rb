@@ -1,5 +1,3 @@
 module UrlDictionary
-  class MissingKeyError < ArgumentError
-
-  end
+  class MissingKeyError < ArgumentError; end
 end

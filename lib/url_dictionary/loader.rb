@@ -3,12 +3,10 @@ require 'open-uri'
 
 module UrlDictionary
   class Loader
-
     @@site_cache = {}
     @@data_cache = nil
 
     class << self
-
       def load(site_key)
         @@site_cache[site_key.to_s.downcase] ||= load_dictionary(site_key)
       end
@@ -64,8 +62,6 @@ module UrlDictionary
       def remote_dictionary_url
         'https://raw.githubusercontent.com/lokalebasen/url_dictionary/master/lib/url_dictionary/data_v2.yml'
       end
-
     end
-
   end
 end

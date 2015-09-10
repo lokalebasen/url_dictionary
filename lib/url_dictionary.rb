@@ -6,7 +6,6 @@ require 'url_dictionary/loader'
 require 'url_dictionary/dictionary'
 
 module UrlDictionary
-
   def self.root_path
     File.join(File.dirname(__FILE__), 'url_dictionary')
   end
@@ -14,5 +13,4 @@ module UrlDictionary
   def self.load(site_key)
     UrlDictionary::Loader.load(site_key)
   end
-
 end

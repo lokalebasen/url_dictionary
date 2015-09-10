@@ -1,5 +1,3 @@
 module UrlDictionary
-  class BadValueError < ArgumentError
-
-  end
+  class BadValueError < ArgumentError; end
 end
