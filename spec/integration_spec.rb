@@ -1,47 +1,52 @@
-# encoding: UTF-8
-
 require 'spec_helper'
 
-describe UrlDictionary do
+SYMBOLS = %i(dk se no de at ch pl fi es)
 
+describe UrlDictionary do
   before :each do
     UrlDictionary::Config.use_local_dictionary!
   end
 
   context 'loading a dictionary' do
-
     it 'should load a dictionary instance for Denmark' do
-      expect(UrlDictionary.load('dk')).to be_an_instance_of UrlDictionary::Dictionary
+      expect(UrlDictionary.load('dk'))
+        .to be_an_instance_of(UrlDictionary::Dictionary)
     end
 
     it 'should be indifferent to case' do
-      expect(UrlDictionary.load('Dk')).to be_an_instance_of UrlDictionary::Dictionary
+      expect(UrlDictionary.load('Dk'))
+        .to be_an_instance_of(UrlDictionary::Dictionary)
     end
 
-    %i(dk se no de at ch pl fi).each do |symbol|
+    SYMBOLS.each do |symbol|
       it "should suppport the symbol :#{symbol} too" do
-        expect(UrlDictionary.load(symbol)).to be_an_instance_of UrlDictionary::Dictionary
+        expect(UrlDictionary.load(symbol))
+          .to be_an_instance_of(UrlDictionary::Dictionary)
       end
     end
   end
 
   context 'reading keys' do
-
     let(:dictionary) { UrlDictionary.load('dk') }
 
     it 'raises MissingKeyError for absent keys' do
-      expect{dictionary.t 'categories.kittens'}.to raise_error(UrlDictionary::MissingKeyError)
+      expect(lambda do
+        dictionary.t 'categories.kittens'
+      end).to raise_error(UrlDictionary::MissingKeyError)
     end
 
     it 'raises BadValueError for keys pointing to a non-string value' do
-      expect{dictionary.t 'categories'}.to raise_error(UrlDictionary::BadValueError)
+      expect(lambda do
+        dictionary.t 'categories'
+      end).to raise_error(UrlDictionary::BadValueError)
     end
 
     it 'responds to translate in addition to t' do
-      expect(dictionary.translate('sub_sites.sale')).to eql 'kob'
+      expect(dictionary.translate('sub_sites.sale'))
+        .to eq('kob')
     end
 
-    ['dk', 'se', 'no', 'de', 'at', 'ch', 'pl', 'fi', 'es'].each do |site_key|
+    SYMBOLS.map(&:to_s).each do |site_key|
       it "supports all keys for #{site_key}" do
         dictionary = UrlDictionary.load(site_key)
         dictionary.t 'about_us'
@@ -79,16 +84,14 @@ describe UrlDictionary do
         dictionary.t 'video_presentation'
       end
     end
-
   end
 
   context 'remote fetching' do
-
     it 'works with fallback to local dictionary' do
       UrlDictionary::Config.use_remote_dictionary!
-      expect(UrlDictionary.load('dk')).to be_an_instance_of UrlDictionary::Dictionary
+
+      expect(UrlDictionary.load('dk'))
+        .to be_an_instance_of(UrlDictionary::Dictionary)
     end
-
   end
-
 end

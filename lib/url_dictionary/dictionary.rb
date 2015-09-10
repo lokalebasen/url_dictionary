@@ -1,6 +1,5 @@
 module UrlDictionary
   class Dictionary
-
     def initialize(hash, site_key)
       @hash = hash
       @site_key = site_key
@@ -32,6 +31,5 @@ module UrlDictionary
         end
       end
     end
-
   end
 end
