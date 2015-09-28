@@ -233,21 +233,21 @@ fi:
   about_us: yritys
   all: kaikki
   categories:
-    investment_property: investointiomaisuus
-    user_property: kaeyttoeomaisuus
-    lot_property: lot
+    investment_property: investointiokiinteistoe
+    user_property: kaeyttoekiinteistoe
+    lot_property: kiinteistoe-tontti
     lease: vuokraus
   copyright: tekijaenoikeudet
   energy_rating: energialuokka
   error: virhe
-  find_business_locations: etsi-liikepaikat
+  find_business_locations: etsi-yritystoimitilat
   floor_plans: pohjapiirrokset
   images: kuvat
   location:
-    business_center: liikekeskus
-    location: huoneistot
-    office: toimistohuoneistot
-    store: myymaelaehuoneistot
+    business_center: toimistohotellit
+    location: toimitilat
+    office: toimisto
+    store: liiketila
     warehouse: varastot
   newest: uusin
   news: uutiset
@@ -257,13 +257,13 @@ fi:
     store: myymaelae
     warehouse: varasto
     housing: asuinhuoneisto
-    commercial_lot: commercial-lot
-    residential_lot: residential-lot
+    commercial_lot: liiketontti
+    residential_lot: asuintontti
   prospect: mahdollisuus
-  province: maaseutu
+  province: alue
   receipt: kuittaus
-  rent_out_business_locations: vuokrahuoneistot
-  sell_business_locations: become-seller
+  rent_out_business_locations: vuokraa-toimitila
+  sell_business_locations: myy-toimitila
   search_agent: hakukone
   providers: vuokraajat
   services: palvelut
