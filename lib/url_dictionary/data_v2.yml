@@ -318,3 +318,48 @@ es:
   video_presentation: video-de-presentacion
   custom_list: lista
   rented_out: alquilado
+
+uk:
+  about_us: about-us
+  all: all
+  categories:
+    investment_property: investment-properties
+    user_property: user-properties
+    lot_property: lots
+    lease: lease
+  copyright: copyright
+  energy_rating: energy-rating
+  error: error
+  find_business_locations: find-business-locations
+  floor_plans: floor-plans
+  images: photos
+  location:
+    business_center: business-centers
+    location: commercial-leases
+    office: offices
+    store: stores
+    warehouse: warehouses
+  newest: newest
+  news: news
+  popular: popular
+  property:
+    office: offices
+    store: stores
+    warehouse: warehouses
+    housing: housing
+    commercial_lot: commercial-lots
+    residential_lot: residential-lots
+  prospect: prospect
+  province: provinces
+  receipt: receipt
+  rent_out_business_locations: rent-out-business-locations
+  sell_business_locations: sell-business-locations
+  search_agent: search-agent
+  providers: providers
+  services: services
+  sub_sites:
+    lease: lease
+    sale: sale
+  video_presentation: presentation-video
+  custom_list: custom-list
+  rented_out: rented-out
