@@ -1,6 +1,6 @@
 require 'spec_helper'
 
-SYMBOLS = %i(dk se no de at ch pl fi es)
+SYMBOLS = %i(dk se no de at ch pl fi es uk)
 
 describe UrlDictionary do
   before :each do
