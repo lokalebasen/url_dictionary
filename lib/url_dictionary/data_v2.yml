@@ -28,6 +28,7 @@ dk:
     housing: boligudlejning
     commercial_lot: erhvervsgrunde
     residential_lot: boliggrunde
+    lot: grunde
   prospect: prospekt
   province: landsdele
   receipt: kvittering
@@ -73,6 +74,7 @@ se:
     housing: hyresbostader
     commercial_lot: commercial-lot
     residential_lot: residential-lot
+    lot: lot
   prospect: prospekt
   province: lan
   receipt: kvittering
@@ -118,6 +120,7 @@ pl:
     housing: wynajem-mieszkan
     commercial_lot: commercial-lot
     residential_lot: residential-lot
+    lot: lot    
   prospect: prospekt
   province: region
   receipt: potwierdzenie
@@ -163,6 +166,7 @@ pl:
     housing: boligutleie
     commercial_lot: commercial-lot
     residential_lot: residential-lot
+    lot: lot    
   prospect: prospekt
   province: landsdel
   receipt: kvittering
@@ -208,6 +212,7 @@ de: &de
     housing: mietwohnung
     commercial_lot: commercial-lot
     residential_lot: residential-lot
+    lot: lot    
   prospect: prospekt
   province: landesteile
   receipt: quittung
@@ -259,6 +264,7 @@ fi:
     housing: asuinhuoneisto
     commercial_lot: liiketontti
     residential_lot: asuintontti
+    lot: lot    
   prospect: mahdollisuus
   province: alue
   receipt: kuittaus
@@ -304,6 +310,7 @@ es:
     housing: alquiler-de-viviendas
     commercial_lot: terreno-comercial
     residential_lot: parcela-vivienda
+    lot: lot    
   prospect: prospecto
   province: provincia
   receipt: recibo
@@ -349,6 +356,7 @@ uk:
     housing: housing
     commercial_lot: commercial-lots
     residential_lot: residential-lots
+    lot: lot
   prospect: prospect
   province: provinces
   receipt: receipt
