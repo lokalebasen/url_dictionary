@@ -371,3 +371,49 @@ uk:
   video_presentation: presentation-video
   custom_list: custom-list
   rented_out: rented-out
+
+nl:
+  about_us: over-ons
+  all: alle
+  categories:
+    investment_property: vastgoedbeleggingen
+    user_property: gebruikerseigenschappen
+    lot_property: kavel
+    lease: huren
+  copyright: copyright
+  energy_rating: energielabel
+  error: fout
+  find_business_locations: vinden bedrijfslocaties
+  floor_plans: plattegronden
+  images: foto
+  location:
+    business_center: zakencentra
+    location: handelshuur
+    office: kantoren
+    store: winkel
+    warehouse: magazijnen
+  newest: nieuwste
+  news: nieuws
+  popular: populair
+  property:
+    office: kantoren
+    store: winkel
+    warehouse: magazijnen
+    housing: behuizing
+    commercial_lot: commerciële_partijen
+    residential_lot: residentiële_percelen
+    lot: kavel
+  prospect: vooruitzicht
+  province: provincies
+  receipt: ontvangst
+  rent_out_business_locations: verhuren-bedrijfslocaties
+  sell_business_locations: verkopen-bedrijfslocaties
+  search_agent: zoekagent
+  providers: providers
+  services: diensten
+  sub_sites:
+    lease: huren
+    sale: verkoop
+  video_presentation: presentatie-video
+  custom_list: aangepaste-lijst
+  rented_out: verhuurd
