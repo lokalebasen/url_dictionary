@@ -7,6 +7,7 @@ dk:
     lot_property: grunde
     lease: leje
   copyright: ophavsrettigheder
+  copyright_url: /ophavsrettigheder
   energy_rating: energimaerke
   error: fejl
   find_business_locations: find-erhvervslejemaal
@@ -53,6 +54,7 @@ se:
     user_property: verksamhetsfastigheter
     lot_property: lot
   copyright: upphovsrattigheter
+  copyright_url: /upphovsrattigheter
   energy_rating: energimarkning
   error: fel
   find_business_locations: hitta-foretagslokaler
@@ -99,6 +101,7 @@ pl:
     lot_property: lot
     lease: najem
   copyright: prawa-autorskie
+  copyright_url: /prawa-autorskie
   energy_rating: etykieta-energetyczna
   error: blad
   find_business_locations: znajdz-lokal-do-wynajecia
@@ -120,7 +123,7 @@ pl:
     housing: wynajem-mieszkan
     commercial_lot: commercial-lot
     residential_lot: residential-lot
-    lot: lot    
+    lot: lot
   prospect: prospekt
   province: region
   receipt: potwierdzenie
@@ -145,6 +148,7 @@ pl:
     lot_property: lot
     lease: leie
   copyright: opphavsrettigheter
+  copyright_url: /opphavsrett
   energy_rating: energimerke
   error: feil
   find_business_locations: finn-naeringslokaler
@@ -166,7 +170,7 @@ pl:
     housing: boligutleie
     commercial_lot: commercial-lot
     residential_lot: residential-lot
-    lot: lot    
+    lot: lot
   prospect: prospekt
   province: landsdel
   receipt: kvittering
@@ -191,6 +195,7 @@ de: &de
     lot_property: lot
     lease: miete
   copyright: urheberrecht
+  copyright_url: /copyright
   energy_rating: energieausweis
   error: fehler
   find_business_locations: gewerbeimmobilien-suchen
@@ -212,7 +217,7 @@ de: &de
     housing: mietwohnung
     commercial_lot: commercial-lot
     residential_lot: residential-lot
-    lot: lot    
+    lot: lot
   prospect: prospekt
   province: landesteile
   receipt: quittung
@@ -243,6 +248,7 @@ fi:
     lot_property: kiinteistoe-tontti
     lease: vuokraus
   copyright: tekijaenoikeudet
+  copyright_url: /tekijanoikeudet
   energy_rating: energialuokka
   error: virhe
   find_business_locations: etsi-yritystoimitilat
@@ -264,7 +270,7 @@ fi:
     housing: asuinhuoneisto
     commercial_lot: liiketontti
     residential_lot: asuintontti
-    lot: lot    
+    lot: lot
   prospect: mahdollisuus
   province: alue
   receipt: kuittaus
@@ -289,6 +295,7 @@ es:
     lot_property: terreno
     lease: arrendamiento
   copyright: derechos-de-autor
+  copyright_url: /copyright
   energy_rating: etiqueta-energetica
   error: error
   find_business_locations: encontrar-alquileres-comerciales
@@ -310,7 +317,7 @@ es:
     housing: alquiler-de-viviendas
     commercial_lot: terreno-comercial
     residential_lot: parcela-vivienda
-    lot: lot    
+    lot: lot
   prospect: prospecto
   province: provincia
   receipt: recibo
@@ -335,6 +342,7 @@ uk:
     lot_property: lots
     lease: lease
   copyright: copyright
+  copyright_url: /ophavsrettigheder
   energy_rating: energy-rating
   error: error
   find_business_locations: find-business-locations
@@ -381,6 +389,7 @@ nl:
     lot_property: kavel
     lease: huren
   copyright: copyright
+  copyright_url: /copyright
   energy_rating: energielabel
   error: fout
   find_business_locations: vinden bedrijfslocaties
