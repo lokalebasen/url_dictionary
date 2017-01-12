@@ -1,6 +1,6 @@
 module UrlDictionary
   class Config
-    @use_local_dictionary = false
+    @use_local_dictionary = true
 
     class << self
       def use_local_dictionary!
