@@ -19,6 +19,8 @@ dk:
     office: kontorlokaler
     store: butikslokaler
     warehouse: produktion-lager
+    coworking: coworking
+    meeting_room: mødelokale
   newest: nyeste
   news: nyheder
   popular: populaere
