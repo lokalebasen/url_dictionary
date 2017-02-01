@@ -20,7 +20,7 @@ dk:
     store: butikslokaler
     warehouse: produktion-lager
     coworking: coworking
-    meeting_room: mødelokale
+    meeting_room: modelokale
   newest: nyeste
   news: nyheder
   popular: populaere
