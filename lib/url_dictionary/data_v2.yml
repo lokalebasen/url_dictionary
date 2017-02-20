@@ -430,7 +430,7 @@ nl:
   rented_out: verhuurd
 
 ua:
-  about_us: about-us
+  about_us: pro-nas
   all: all
   categories:
     investment_property: investment-properties
@@ -464,13 +464,13 @@ ua:
   prospect: prospect
   province: provinces
   receipt: receipt
-  rent_out_business_locations: rent-out-business-locations
+  rent_out_business_locations: dlia-orendodavtsiv
   sell_business_locations: sell-business-locations
   search_agent: search-agent
   providers: providers
   services: services
   sub_sites:
-    lease: lease
+    lease: orenda
     sale: sale
   video_presentation: presentation-video
   custom_list: custom-list
