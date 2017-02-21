@@ -68,6 +68,8 @@ se:
     store: butikslokaler
     warehouse: industri-lager
     location: lokaler
+    coworking: coworking
+    meeting_room: motesrum
   newest: nyaste
   news: nyheter
   popular: populara
@@ -115,6 +117,8 @@ pl:
     office: lokale-biurowe
     store: lokale-sklepowe
     warehouse: produkcja-magazyn
+    coworking: coworking
+    meeting_room: meeting-room
   newest: najnowsze
   news: nowosci
   popular: popularne
@@ -162,6 +166,8 @@ pl:
     office: kontorlokaler
     store: butikklokaler
     warehouse: produksjon-lager
+    coworking: coworking
+    meeting_room: meeting-room
   newest: nyeste
   news: nyheter
   popular: populaer
@@ -209,6 +215,8 @@ de: &de
     office: buro
     store: einzelhandel
     warehouse: lagerhallen-produktion
+    coworking: coworking
+    meeting_room: besprechungsraum
   newest: neueste
   news: neuigkeiten
   popular: beliebte
@@ -262,6 +270,8 @@ fi:
     office: toimisto
     store: liiketila
     warehouse: varastot
+    coworking: coworking
+    meeting_room: kokoustilat
   newest: uusin
   news: uutiset
   popular: suosittu
@@ -309,6 +319,8 @@ es:
     office: oficinas
     store: tiendas
     warehouse: almacen
+    coworking: coworking
+    meeting_room: meeting-room
   newest: mas-reciente
   news: noticias
   popular: popular
@@ -356,6 +368,8 @@ uk:
     office: offices
     store: stores
     warehouse: warehouses
+    coworking: coworking
+    meeting_room: meeting-room
   newest: newest
   news: news
   popular: popular
@@ -403,6 +417,8 @@ nl:
     office: kantoren
     store: winkel
     warehouse: magazijnen
+    coworking: coworking
+    meeting_room: meeting-room
   newest: nieuwste
   news: nieuws
   popular: populair
@@ -450,6 +466,8 @@ ua:
     office: offices
     store: stores
     warehouse: warehouses
+    coworking: coworking
+    meeting_room: meeting-room
   newest: newest
   news: news
   popular: popular
