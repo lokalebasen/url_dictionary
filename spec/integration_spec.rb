@@ -1,54 +1,24 @@
 require 'spec_helper'
 
-SYMBOLS = %i(dk se no de at ch pl fi es uk)
+SITE_KEYS = %w(dk se no de at ch pl fi es uk global)
 
 describe UrlDictionary do
-  before :each do
-    UrlDictionary::Config.use_local_dictionary!
-  end
-
-  context 'loading a dictionary' do
-    it 'should load a dictionary instance for Denmark' do
-      expect(UrlDictionary.load('dk'))
-        .to be_an_instance_of(UrlDictionary::Dictionary)
-    end
-
-    it 'should be indifferent to case' do
-      expect(UrlDictionary.load('Dk'))
-        .to be_an_instance_of(UrlDictionary::Dictionary)
-    end
-
-    SYMBOLS.each do |symbol|
-      it "should suppport the symbol :#{symbol} too" do
-        expect(UrlDictionary.load(symbol))
-          .to be_an_instance_of(UrlDictionary::Dictionary)
-      end
-    end
-  end
-
   context 'reading keys' do
-    let(:dictionary) { UrlDictionary.load('dk') }
+    let(:dictionary) { UrlDictionary.new('dk') }
 
-    it 'raises MissingKeyError for absent keys' do
-      expect(lambda do
-        dictionary.t 'categories.kittens'
-      end).to raise_error(UrlDictionary::MissingKeyError)
+    it 'requires existing key' do
+      expect { dictionary.t('categories.kittens') }.to raise_error KeyError
     end
 
-    it 'raises BadValueError for keys pointing to a non-string value' do
-      expect(lambda do
-        dictionary.t 'categories'
-      end).to raise_error(UrlDictionary::BadValueError)
+    it 'returns some translation successfully' do
+      expect(dictionary.translate('sub_sites.sale')).to eq('kob')
     end
+  end
 
-    it 'responds to translate in addition to t' do
-      expect(dictionary.translate('sub_sites.sale'))
-        .to eq('kob')
-    end
-
-    SYMBOLS.map(&:to_s).each do |site_key|
+  context 'ensure all keys' do
+    SITE_KEYS.each do |site_key|
       it "supports all keys for #{site_key}" do
-        dictionary = UrlDictionary.load(site_key)
+        dictionary = UrlDictionary.new(site_key)
         dictionary.t 'about_us'
         dictionary.t 'all'
         dictionary.t 'categories.investment_property'
@@ -86,12 +56,4 @@ describe UrlDictionary do
     end
   end
 
-  context 'remote fetching' do
-    it 'works with fallback to local dictionary' do
-      UrlDictionary::Config.use_remote_dictionary!
-
-      expect(UrlDictionary.load('dk'))
-        .to be_an_instance_of(UrlDictionary::Dictionary)
-    end
-  end
 end

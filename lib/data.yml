@@ -347,7 +347,7 @@ es:
   custom_list: lista
   rented_out: alquilado
 
-uk:
+uk: &uk
   about_us: about-us
   all: all
   categories:
@@ -395,6 +395,9 @@ uk:
   video_presentation: presentation-video
   custom_list: custom-list
   rented_out: rented-out
+
+global:
+  <<: *uk
 
 nl:
   about_us: over-ons
