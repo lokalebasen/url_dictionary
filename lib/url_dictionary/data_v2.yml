@@ -356,7 +356,7 @@ uk:
     lot_property: lots
     lease: lease
   copyright: copyright
-  copyright_url: /ophavsrettigheder
+  copyright_url: /copyright
   energy_rating: energy-rating
   error: error
   find_business_locations: find-business-locations
@@ -454,7 +454,7 @@ ua:
     lot_property: lots
     lease: lease
   copyright: copyright
-  copyright_url: /ophavsrettigheder
+  copyright_url: /copyright
   energy_rating: energy-rating
   error: error
   find_business_locations: find-business-locations
