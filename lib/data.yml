@@ -21,6 +21,8 @@ dk:
     warehouse: produktion-lager
     coworking: coworking
     meeting_room: modelokale
+    housing: boligudlejning
+    lot: lot
   newest: nyeste
   news: nyheder
   popular: populaere
