@@ -22,7 +22,7 @@ dk:
     coworking: coworking
     meeting_room: modelokale
     housing: boligudlejning
-    lot: lot
+    lot: grunde
   newest: nyeste
   news: nyheder
   popular: populaere
@@ -72,6 +72,8 @@ se:
     location: lokaler
     coworking: coworking
     meeting_room: motesrum
+    housing: hyresbostader
+    lot: lot
   newest: nyaste
   news: nyheter
   popular: populara
@@ -121,6 +123,8 @@ pl:
     warehouse: produkcja-magazyn
     coworking: coworking
     meeting_room: meeting-room
+    housing: wynajem-mieszkan
+    lot: lot
   newest: najnowsze
   news: nowosci
   popular: popularne
@@ -170,6 +174,8 @@ pl:
     warehouse: produksjon-lager
     coworking: coworking
     meeting_room: meeting-room
+    housing: boligutleie
+    lot: lot
   newest: nyeste
   news: nyheter
   popular: populaer
@@ -219,6 +225,8 @@ de: &de
     warehouse: lagerhallen-produktion
     coworking: coworking
     meeting_room: besprechungsraum
+    housing: mietwohnung
+    lot: lot
   newest: neueste
   news: neuigkeiten
   popular: beliebte
@@ -274,6 +282,8 @@ fi:
     warehouse: varastot
     coworking: coworking
     meeting_room: kokoustilat
+    housing: asuinhuoneisto
+    lot: lot
   newest: uusin
   news: uutiset
   popular: suosittu
@@ -323,6 +333,8 @@ es:
     warehouse: almacen
     coworking: coworking
     meeting_room: meeting-room
+    housing: alquiler-de-viviendas
+    lot: lot
   newest: mas-reciente
   news: noticias
   popular: popular
@@ -372,6 +384,8 @@ uk: &uk
     warehouse: warehouses
     coworking: coworking
     meeting_room: meeting-room
+    housing: housing
+    lot: lot
   newest: newest
   news: news
   popular: popular
@@ -424,6 +438,8 @@ nl:
     warehouse: magazijnen
     coworking: coworking
     meeting_room: meeting-room
+    housing: behuizing
+    lot: kavel
   newest: nieuwste
   news: nieuws
   popular: populair
@@ -473,6 +489,8 @@ ua:
     warehouse: warehouses
     coworking: coworking
     meeting_room: meeting-room
+    housing: housing
+    lot: lot
   newest: newest
   news: novyny
   popular: popular
