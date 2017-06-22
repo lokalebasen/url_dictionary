@@ -6,6 +6,12 @@ dk:
     user_property: brugerejendomme
     lot_property: grunde
     lease: leje
+  sections:
+    investment: investeringsejendomme
+    user: brugerejendomme
+    foreclosure: tvangsauktion
+    lease: leje
+    sale: kob
   copyright: ophavsrettigheder
   copyright_url: /ophavsrettigheder
   energy_rating: energimaerke
