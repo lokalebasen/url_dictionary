@@ -8,7 +8,7 @@ dk:
     lease: leje
   sections:
     investment: investeringsejendomme
-    user: brugerejendomme
+    own_use: brugerejendomme
     foreclosure: tvangsauktion
     lease: leje
     sale: kob
