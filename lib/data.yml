@@ -367,7 +367,7 @@ es:
   custom_list: lista
   rented_out: alquilado
 
-uk: &uk
+gb: &gb
   about_us: about-us
   all: all
   categories:
@@ -419,7 +419,10 @@ uk: &uk
   rented_out: rented-out
 
 global:
-  <<: *uk
+  <<: *gb
+
+uk:
+  <<: *gb
 
 nl:
   about_us: over-ons
