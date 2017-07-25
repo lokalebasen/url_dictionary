@@ -1,7 +1,7 @@
 require 'yaml'
+require 'url_dictionary/version'
 
 class UrlDictionary
-  VERSION = "0.1.9"
 
   def initialize(site_key)
     @site_key = site_key.to_s
