@@ -1,3 +1,3 @@
-module UrlDictionary
-  VERSION = "0.1.8"
+class UrlDictionary
+  VERSION = "0.2.0"
 end

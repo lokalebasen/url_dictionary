@@ -1,20 +1,19 @@
-# coding: utf-8
-lib = File.expand_path('../lib', __FILE__)
+lib = "#{__dir__}/lib"
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require 'url_dictionary'
+require 'url_dictionary/version'
 
 Gem::Specification.new do |spec|
   spec.name          = "url_dictionary"
   spec.version       = UrlDictionary::VERSION
-  spec.authors       = ["Niels Buus"]
-  spec.email         = ["nb@lokalebasen.dk"]
+  spec.authors       = ["MatchOffice"]
+  spec.email         = ["udviklere@lokalebasen.dk"]
   spec.summary       = %q{Library for internationalizing Lokalebasen url segments}
-  spec.homepage      = "https://github.com/lokalebasen/url-url_dictionary"
+  spec.homepage      = "https://github.com/lokalebasen/url_dictionary"
   spec.license       = "MIT"
 
-  spec.files         = `git ls-files -z`.split("\x0")
+  spec.files         = `git ls-files`.split
   spec.executables   = spec.files.grep(%r{^bin/}) { |f| File.basename(f) }
-  spec.test_files    = spec.files.grep(%r{^(test|spec|features)/})
+  spec.test_files    = spec.files.grep(%r{^(spec)/})
   spec.require_paths = ["lib"]
 
   spec.add_development_dependency "bundler", "~> 1.6"

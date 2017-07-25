@@ -6,6 +6,12 @@ dk:
     user_property: brugerejendomme
     lot_property: grunde
     lease: leje
+  sections:
+    investment: investeringsejendomme
+    own_use: brugerejendomme
+    foreclosure: tvangsauktion
+    lease: leje
+    sale: kob
   copyright: ophavsrettigheder
   copyright_url: /ophavsrettigheder
   energy_rating: energimaerke
@@ -21,6 +27,8 @@ dk:
     warehouse: produktion-lager
     coworking: coworking
     meeting_room: modelokale
+    housing: boligudlejning
+    lot: grunde
   newest: nyeste
   news: nyheder
   popular: populaere
@@ -70,6 +78,8 @@ se:
     location: lokaler
     coworking: coworking
     meeting_room: motesrum
+    housing: hyresbostader
+    lot: lot
   newest: nyaste
   news: nyheter
   popular: populara
@@ -119,6 +129,8 @@ pl:
     warehouse: produkcja-magazyn
     coworking: coworking
     meeting_room: meeting-room
+    housing: wynajem-mieszkan
+    lot: lot
   newest: najnowsze
   news: nowosci
   popular: popularne
@@ -168,6 +180,8 @@ pl:
     warehouse: produksjon-lager
     coworking: coworking
     meeting_room: meeting-room
+    housing: boligutleie
+    lot: lot
   newest: nyeste
   news: nyheter
   popular: populaer
@@ -217,6 +231,8 @@ de: &de
     warehouse: lagerhallen-produktion
     coworking: coworking
     meeting_room: besprechungsraum
+    housing: mietwohnung
+    lot: lot
   newest: neueste
   news: neuigkeiten
   popular: beliebte
@@ -272,6 +288,8 @@ fi:
     warehouse: varastot
     coworking: coworking
     meeting_room: kokoustilat
+    housing: asuinhuoneisto
+    lot: lot
   newest: uusin
   news: uutiset
   popular: suosittu
@@ -321,6 +339,8 @@ es:
     warehouse: almacen
     coworking: coworking
     meeting_room: meeting-room
+    housing: alquiler-de-viviendas
+    lot: lot
   newest: mas-reciente
   news: noticias
   popular: popular
@@ -347,7 +367,7 @@ es:
   custom_list: lista
   rented_out: alquilado
 
-uk:
+gb: &gb
   about_us: about-us
   all: all
   categories:
@@ -370,6 +390,8 @@ uk:
     warehouse: warehouses
     coworking: coworking
     meeting_room: meeting-room
+    housing: housing
+    lot: lot
   newest: newest
   news: news
   popular: popular
@@ -396,6 +418,12 @@ uk:
   custom_list: custom-list
   rented_out: rented-out
 
+global:
+  <<: *gb
+
+uk:
+  <<: *gb
+
 nl:
   about_us: over-ons
   all: alle
@@ -419,6 +447,8 @@ nl:
     warehouse: magazijnen
     coworking: coworking
     meeting_room: meeting-room
+    housing: behuizing
+    lot: kavel
   newest: nieuwste
   news: nieuws
   popular: populair
@@ -468,6 +498,8 @@ ua:
     warehouse: warehouses
     coworking: coworking
     meeting_room: meeting-room
+    housing: housing
+    lot: lot
   newest: newest
   news: novyny
   popular: popular
