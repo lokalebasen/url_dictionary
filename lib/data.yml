@@ -6,6 +6,12 @@ dk:
     user_property: brugerejendomme
     lot_property: grunde
     lease: leje
+  sections:
+    investment: investeringsejendomme
+    own_use: brugerejendomme
+    foreclosure: tvangsauktion
+    lease: leje
+    sale: kob
   copyright: ophavsrettigheder
   copyright_url: /ophavsrettigheder
   energy_rating: energimaerke
@@ -23,6 +29,8 @@ dk:
     meeting_room: modelokale
     virtual_office: virtual_office
     parking: parking
+    housing: boligudlejning
+    lot: grunde
   newest: nyeste
   news: nyheder
   popular: populaere
@@ -74,6 +82,8 @@ se:
     meeting_room: motesrum
     virtual_office: virtual_office
     parking: parking
+    housing: hyresbostader
+    lot: lot
   newest: nyaste
   news: nyheter
   popular: populara
@@ -125,6 +135,8 @@ pl:
     meeting_room: meeting-room
     virtual_office: virtual_office
     parking: parking
+    housing: wynajem-mieszkan
+    lot: lot
   newest: najnowsze
   news: nowosci
   popular: popularne
@@ -176,6 +188,8 @@ pl:
     meeting_room: meeting-room
     virtual_office: virtual_office
     parking: parking
+    housing: boligutleie
+    lot: lot
   newest: nyeste
   news: nyheter
   popular: populaer
@@ -227,6 +241,8 @@ de: &de
     meeting_room: besprechungsraum
     virtual_office: virtual_office
     parking: parking
+    housing: mietwohnung
+    lot: lot
   newest: neueste
   news: neuigkeiten
   popular: beliebte
@@ -284,6 +300,8 @@ fi:
     meeting_room: kokoustilat
     virtual_office: virtual_office
     parking: parking
+    housing: asuinhuoneisto
+    lot: lot
   newest: uusin
   news: uutiset
   popular: suosittu
@@ -335,6 +353,8 @@ es:
     meeting_room: meeting-room
     virtual_office: virtual_office
     parking: parking
+    housing: alquiler-de-viviendas
+    lot: lot
   newest: mas-reciente
   news: noticias
   popular: popular
@@ -361,7 +381,7 @@ es:
   custom_list: lista
   rented_out: alquilado
 
-uk:
+gb: &gb
   about_us: about-us
   all: all
   categories:
@@ -386,6 +406,8 @@ uk:
     meeting_room: meeting-room
     virtual_office: virtual_office
     parking: parking
+    housing: housing
+    lot: lot
   newest: newest
   news: news
   popular: popular
@@ -412,6 +434,12 @@ uk:
   custom_list: custom-list
   rented_out: rented-out
 
+global:
+  <<: *gb
+
+uk:
+  <<: *gb
+
 nl:
   about_us: over-ons
   all: alle
@@ -437,6 +465,8 @@ nl:
     meeting_room: meeting-room
     virtual_office: virtual_office
     parking: parking
+    housing: behuizing
+    lot: kavel
   newest: nieuwste
   news: nieuws
   popular: populair
@@ -488,6 +518,8 @@ ua:
     meeting_room: meeting-room
     virtual_office: virtual_office
     parking: parking
+    housing: housing
+    lot: lot
   newest: newest
   news: novyny
   popular: popular

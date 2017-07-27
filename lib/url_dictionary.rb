@@ -1,16 +1,17 @@
+require 'yaml'
 require 'url_dictionary/version'
-require 'url_dictionary/bad_value_error'
-require 'url_dictionary/missing_key_error'
-require 'url_dictionary/config'
-require 'url_dictionary/loader'
-require 'url_dictionary/dictionary'
 
-module UrlDictionary
-  def self.root_path
-    File.join(File.dirname(__FILE__), 'url_dictionary')
+class UrlDictionary
+
+  def initialize(site_key)
+    @site_key = site_key.to_s
+    @yml = YAML.load(File.read("#{__dir__}/data.yml"))[@site_key]
   end
 
-  def self.load(site_key)
-    UrlDictionary::Loader.load(site_key)
+  def translate(key)
+    @yml&.dig(*key.split(".")) || raise(KeyError, "No data found for key #{@site_key}/#{key}")
   end
+
+  alias_method :t, :translate
+
 end
