@@ -545,3 +545,17 @@ ua:
   video_presentation: presentation-video
   custom_list: custom-list
   rented_out: rented-out
+be:
+  <<: *gb
+sg:
+  <<: *gb
+it:
+  <<: *gb
+fr:
+  <<: *gb
+lu:
+  <<: *gb
+in:
+  <<: *gb
+hk:
+  <<: *gb
