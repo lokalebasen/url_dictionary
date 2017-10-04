@@ -11,7 +11,7 @@ dk:
     own_use: brugerejendomme
     foreclosure: tvangsauktion
     lease: leje
-    sale: kob
+    sale: erhvervsejendomme
   copyright: ophavsrettigheder
   copyright_url: /ophavsrettigheder
   energy_rating: energimaerke
@@ -65,6 +65,8 @@ se:
     investment_property: investeringsfastigheter
     user_property: verksamhetsfastigheter
     lot_property: lot
+  sections:
+    lease: hyra
   copyright: upphovsrattigheter
   copyright_url: /upphovsrattigheter
   energy_rating: energimarkning
@@ -117,6 +119,8 @@ pl:
     investment_property: nieruchomosci-inwestycyjne
     user_property: nieruchomosci-uzytkowe
     lot_property: lot
+    lease: najem
+  sections:
     lease: najem
   copyright: prawa-autorskie
   copyright_url: /prawa-autorskie
@@ -171,6 +175,8 @@ pl:
     user_property: brukseiendommer
     lot_property: lot
     lease: leie
+  sections:
+    lease: leie
   copyright: opphavsrettigheter
   copyright_url: /opphavsrett
   energy_rating: energimerke
@@ -223,6 +229,8 @@ de: &de
     investment_property: anlageimmobilie
     user_property: wohnimmobilie
     lot_property: lot
+    lease: miete
+  sections:
     lease: miete
   copyright: urheberrecht
   copyright_url: /copyright
@@ -283,6 +291,8 @@ fi:
     user_property: kaeyttoekiinteistoe
     lot_property: kiinteistoe-tontti
     lease: vuokraus
+  sections:
+    lease: vuokraus
   copyright: tekijaenoikeudet
   copyright_url: /tekijanoikeudet
   energy_rating: energialuokka
@@ -336,6 +346,8 @@ es:
     user_property: las-propriedades-de-usuario
     lot_property: terreno
     lease: arrendamiento
+  sections:
+    lease: arrendamiento
   copyright: derechos-de-autor
   copyright_url: /copyright
   energy_rating: etiqueta-energetica
@@ -388,6 +400,8 @@ gb: &gb
     investment_property: investment-properties
     user_property: user-properties
     lot_property: lots
+    lease: lease
+  sections:
     lease: lease
   copyright: copyright
   copyright_url: /copyright
@@ -448,6 +462,8 @@ nl:
     user_property: gebruikerseigenschappen
     lot_property: kavel
     lease: huren
+  sections:
+    lease: huren
   copyright: copyright
   copyright_url: /copyright
   energy_rating: energielabel
@@ -500,6 +516,8 @@ ua:
     investment_property: investment-properties
     user_property: user-properties
     lot_property: lots
+    lease: lease
+  sections:
     lease: lease
   copyright: copyright
   copyright_url: /copyright
