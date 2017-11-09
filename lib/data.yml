@@ -231,7 +231,7 @@ de: &de
     lot_property: lot
     lease: miete
   sections:
-    lease: miete
+    lease: mieten
   copyright: urheberrecht
   copyright_url: /copyright
   energy_rating: energieausweis
@@ -347,7 +347,7 @@ es:
     lot_property: terreno
     lease: arrendamiento
   sections:
-    lease: arrendamiento
+    lease: alquilar
   copyright: derechos-de-autor
   copyright_url: /copyright
   energy_rating: etiqueta-energetica
@@ -518,7 +518,7 @@ ua:
     lot_property: lots
     lease: lease
   sections:
-    lease: lease
+    lease: orenda
   copyright: copyright
   copyright_url: /copyright
   energy_rating: energy-rating
