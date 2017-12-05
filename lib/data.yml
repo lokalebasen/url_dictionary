@@ -565,8 +565,9 @@ ua:
   rented_out: rented-out
 sg:
   <<: *gb
-it:
+it: &it
   <<: *gb
+  about_us: su-di-noi
 in:
   <<: *gb
 hk:
